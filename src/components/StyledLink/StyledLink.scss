@@ -1,0 +1,18 @@
+.styled-link {
+  transition: ease-in-out 0.25s all;
+  border-radius: 8px;
+  padding: 16px 25px;
+  display: inline-block;
+  &:hover {
+    color: var(--white);
+    background-color: var(--light-peach);
+  }
+  &--light {
+    color: var(--dark-grey);
+    background-color: var(--white);
+  }
+  &--dark {
+    color: var(--white);
+    background-color: var(--peach);
+  }
+}

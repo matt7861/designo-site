@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./_include-media.scss";
+@import "./_typography.scss";
+@import "./_variables.scss";
+@import "./_mixins.scss";
+@import "./_global.scss";

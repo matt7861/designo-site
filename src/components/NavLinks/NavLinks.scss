@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  &.light .link {
+    color: var(--white);
+  }
+  &.dark .link {
+    color: var(--dark-grey);
+  }
+  .link {
+    transition: ease-in-out 0.25s color;
+
+    &:hover {
+      color: var(--peach);
+    }
+  }
+}

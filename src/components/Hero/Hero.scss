@@ -1,0 +1,25 @@
+.hero {
+  background-image: url("../../assets/images/hero-bg.svg");
+  background-color: var(--peach);
+  padding: 130px 105px;
+  position: relative;
+  &__content {
+    width: 50%;
+    max-width: 540px;
+    color: var(--white);
+
+    p {
+      max-width: 445px;
+    }
+
+    .styled-link {
+      margin-top: 2em;
+    }
+  }
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    width: 33%;
+  }
+}
