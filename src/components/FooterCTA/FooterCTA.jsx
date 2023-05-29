@@ -1,6 +1,6 @@
 import React from "react";
 import "./FooterCTA.scss";
-import StyledLink from "../StyledLink/StyledLink";
+import StyledButton from "../UI/StyledButton/StyledButton";
 import BannerWrapper from "../UI/BannerWrapper/BannerWrapper";
 
 const FooterCTA = () => {
@@ -18,9 +18,9 @@ const FooterCTA = () => {
         </p>
       </div>
 
-      <StyledLink to="/contact" style="light">
+      <StyledButton to="/contact" style="light">
         GET IN TOUCH
-      </StyledLink>
+      </StyledButton>
     </BannerWrapper>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react";
 import heroImage from "../../assets/images/hero-image.png";
-import StyledLink from "../StyledLink/StyledLink";
+import StyledButton from "../UI/StyledButton/StyledButton";
 import BannerWrapper from "../UI/BannerWrapper/BannerWrapper";
 import "./Hero.scss";
 
@@ -14,9 +14,9 @@ const Hero = () => {
           fully responsive websites, app design, and engaging brand experiences.
           Find out more about our services.
         </p>
-        <StyledLink to="/about" style="light">
+        <StyledButton to="/about" style="light">
           LEARN MORE
-        </StyledLink>
+        </StyledButton>
         <img className="hero__image" src={heroImage} alt="hero image" />
       </div>
     </BannerWrapper>

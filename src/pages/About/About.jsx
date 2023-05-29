@@ -1,5 +1,7 @@
+import SimpleHero from "../../components/SimpleHero/SimpleHero";
+
 const About = () => {
-  return <div>About</div>;
+  return <SimpleHero />;
 };
 
 export default About;
