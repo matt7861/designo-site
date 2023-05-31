@@ -1,0 +1,15 @@
+.work-card-container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "left right";
+  gap: 20px 20px;
+  padding: 150px 0;
+  &.featured {
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "featured top"
+      "featured bottom";
+  }
+}

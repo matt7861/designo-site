@@ -1,0 +1,14 @@
+.styled-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  transition: ease-in-out 0.25s color;
+  &:hover {
+    color: var(--peach);
+  }
+  img {
+    height: 10px;
+    width: auto;
+  }
+}

@@ -1,0 +1,22 @@
+.work-card {
+  border-radius: 20px;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0;
+  background-position: center;
+  background-size: cover;
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  &.large {
+    grid-area: featured;
+  }
+
+  &.small {
+    // styles for small work cards
+  }
+}
